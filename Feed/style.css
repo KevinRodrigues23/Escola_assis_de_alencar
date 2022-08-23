@@ -1,0 +1,24 @@
+* body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.texto {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-left: 10px;
+}
+.botao {
+  text-align: center;
+  width: 500px;
+  height: 200px;
+}
+.botao:hover{
+  background-color: red;
+}
+
+
+
+
