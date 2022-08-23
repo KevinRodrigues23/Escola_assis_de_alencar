@@ -55,17 +55,17 @@ $artigos = $artigo->exibirTodos();
   </div>
 </nav>
 </header>
-<main class="">
+<main class="p-2">
 
 
 <h1>RELATÓRIOS RECENTE</h1>
-
+<div class="cardedit">
 <div class="row row-cols-1 row-cols-md-3 g-3 m-2">
 <?php foreach ($artigos as $artigo) : ?>
   <div class="col">
     <div class="card">
     <a href="artigo.php?id=<?php echo $artigo['id']; ?>">
-      <img src="../img/OIP.jpg" class="card-img-top" width="300px" height="250px" alt="..."></a>
+      <img src="../img/OIP.jpg" class="card-img-top" width="200px" height="200px" alt="..."></a>
       <div class="card-body">
        
         <h5 class="card-title"><?php echo $artigo['titulo'];?></h5>
@@ -81,6 +81,7 @@ $artigos = $artigo->exibirTodos();
  
   <?php endforeach; ?>
 </div>
+</div>
 </main>
    
 
@@ -94,6 +95,7 @@ $artigos = $artigo->exibirTodos();
  
 </body>
 </html>
+
 
 
 
