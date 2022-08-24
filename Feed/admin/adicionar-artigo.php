@@ -58,9 +58,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </li>
       
       </ul>
-   
+         <div class="logout">
         <a class="btn btn-outline-success" href="../assets/logout.php">Logout</a>
-      
+</div>    
     </div>
   </div>
 </nav>
@@ -82,7 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <label for="exampleFormControlTextarea1" class="form-label"><b>escreva o relatórios</b></label>
   <textarea class="form-control" name="conteudo"id="exampleFormControlTextarea1" rows="4"></textarea>
 </div>
-  <input type="submit" value="enviar" >
+  <input class="enviar" type="submit" value="enviar" >
         </form>
     </div>
 </div>
@@ -92,3 +92,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </body>
 
 </html>
+<style>
+.enviar{
+  margin-left:48%;
+}
+
+</style>

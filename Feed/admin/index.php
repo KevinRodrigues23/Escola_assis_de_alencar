@@ -49,8 +49,10 @@ $artigos = $artigo->exibirTodos();
       <td><?php echo $art['titulo']; ?></td>
       <td><?php echo $art['conteudo']; ?></td>
       <td>
-     <a class="botao" href="editar-artigo.php?id=<?php echo $art['id']; ?>">Editar</a>
-     <a class="botao" href="excluir-artigo.php?id=<?php echo $art['id']; ?>">Excluir</a>
+     <a class="botao" href="editar-artigo.php?id=<?php echo $art['id']; ?>"><input type="submit" value="Editar"></a>
+     </td>
+     <td>
+     <a class="botao" href="excluir-artigo.php?id=<?php echo $art['id']; ?>"><input type="submit" value="Excluir" ></a>
     </td>
     </tr>
     <?php } ?>
@@ -65,3 +67,11 @@ $artigos = $artigo->exibirTodos();
 </body>
 
 </html>
+
+<style>
+  input:hover{
+    background-color:#17A2B8;
+    color:white;
+    border-radius:1px;
+  }
+</style>
