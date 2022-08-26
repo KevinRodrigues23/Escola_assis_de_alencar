@@ -18,6 +18,8 @@ $artigos = $artigo->exibirTodos();
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../style.css">
+    <!-- font icons from bootstrap -->
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 
@@ -27,7 +29,7 @@ $artigos = $artigo->exibirTodos();
 
 
 
-    <div id="container" class="m-4">
+    <div id="container" class="m-4" data-imprimaAqui>
         <h1>Página Administrativa</h1>
         
         <table class="table">
@@ -59,6 +61,7 @@ $artigos = $artigo->exibirTodos();
   </tbody>
 </table>
        
+    <p><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <input type="button" value="Imprimir" data-imprimir> </p> 
     </div>
 
   <?php
@@ -66,6 +69,7 @@ $artigos = $artigo->exibirTodos();
     ?>
 </body>
 
+<script src="../../javascript/imprimir.js"></script>
 </html>
 
 <style>
