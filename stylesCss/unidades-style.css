@@ -1,0 +1,89 @@
+#unidades-box {
+    background-color: #F4F4F4;
+    height: auto;
+}
+
+.btn-back{
+    background: #0679f5;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    height: 30px;
+    width: 50px;
+}
+.btn-back:hover {
+    background: #056fe0;
+    color: white;
+}
+
+.point-icon {
+    color: red;
+}
+
+/* cabecalho área*/
+.cabecalho {
+    align-items: center;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    width: 100%; 
+}
+.cabecalho__titulo {
+    align-items: center;
+    font-size: 40px;
+}
+
+/* sobre unidades área*/
+.sobre__unidades {
+    border-bottom: 1px solid rgb(226, 226, 226);
+    display: flex;
+    margin: 5em auto;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.sobre__unidades-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.sobre__unidade-img {
+    padding: 50px;
+    width: 600px;
+}
+
+/* polo principal */
+.central__polo {
+    border-bottom: 1px solid rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8em auto;
+    width: 80%;
+}
+.polo__titulo {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.polo__mapa {
+    padding: 20px;
+}
+
+/* cards polos */
+.cards__polos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: initial;
+    margin: 3rem auto 0;
+    width: 85%;
+}
+
+.polos__card {
+    margin: 1em 1em;
+}
+
+
