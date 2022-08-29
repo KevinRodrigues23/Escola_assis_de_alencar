@@ -23,30 +23,30 @@
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../Feed/index.php">Início</a>
+          <a class="nav-link active" aria-current="page" href="Feed/index.php">Início</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="sobre.html">sobre </a>
+          <a class="nav-link" href="Feed/sobre.php">sobre </a>
         </li>
         <li class="nav-item">
           
-          <a class="nav-link" href="relatorio.php">relatórios <i class="fa fa-folder-open-o" aria-hidden="true"></i></a>
+          <a class="nav-link" href="Feed/relatorio.php">relatórios <i class="fa fa-folder-open-o" aria-hidden="true"></i></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             mais
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="adicionar-artigo.php">Publicar artigo <i class="fa fa-print" aria-hidden="true"></i></a></li>
-            <li><a class="dropdown-item" href="excluir-artigo.php">Editar/Deletar <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></li>
+            <li><a class="dropdown-item" href="Feed/admin/adicionar-artigo.php">Publicar artigo <i class="fa fa-print" aria-hidden="true"></i></a></li>
+            <li><a class="dropdown-item" href="Feed/admin/excluir-artigo.php">Editar/Deletar <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Configuração <i class="fa fa-cogs" aria-hidden="true"></i></a></li>
+            <li><a class="dropdown-item" href="configuracao.php">Configuração <i class="fa fa-cogs" aria-hidden="true"></i></a></li>
           </ul>
         </li>
       
       </ul>
    
-        <a class="btn btn-outline-success" href="logout.php">Logout <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+        <a class="btn btn-outline-success bg-success text-light" href="logout.php">Logout <i class="fa fa-sign-out" aria-hidden="true"></i></a>
       
     </div>
   </div>
