@@ -54,7 +54,7 @@ session_start();
             </li>
             <li class="nav-item">
             <p class="mb-6  fw-bold ls-tight" style="color: #000000">
-              <a class="nav-link" href="#">Sobre</a>
+              <a class="nav-link" href="./Feed/sobre.php">Sobre</a>
             </li>
               <li class="nav-item">
               <p class="mb-6  fw-bold ls-tight" style="color: #000000">
@@ -145,29 +145,34 @@ session_start();
               <div class="row">
                 <div class="col-md-6 mb-4">
                   <div class="form-outline">
+                  <label class="form-label" for="form3Example1">Nome</label>
                     <input type="text" name="nome" id="form3Example1" class="form-control" placeholder="Nome" data-tipo="nome" required/>
-                    <label class="form-label" for="form3Example1">Nome</label>
+                    
                   </div>
                 </div>
                 <div class="col-md-6 mb-4">
                   <div class="form-outline">
+                  <label class="form-label" for="form3Example2">Sobrenome</label>
                     <input type="text" name="sobrenome" id="form3Example2" class="form-control"placeholder="Sobrenome" data-tipo="sobrenome" required/>
-                    <label class="form-label" for="form3Example2">Sobrenome</label>
+                    
                   </div>
                 </div>
               </div>
 
               <!-- Email input -->
               <div class="col-md-10 mb-6">
+              <label class="form-label" for="form3Example3">E-mail </label>
                 <input type="email" name="email" id="form3Example3" class="total-input form-control" placeholder="Digite o seu e-mail..." data-tipo="email" required/>
-                <label class="form-label" for="form3Example3">E-mail </label>
+                
 
               <div class="col-md-12 mb-8">
+              <label class="form-label" for="form3Example4">Senha</label>
                 <input type="password" name="senha" id="form3Example4"  class="total-input form-control" placeholder="Digite sua senha..." pattern="^(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="A senha deve conter entre 6 a 12 numeros e não deve conter símbolos." data-tipo="senha" required/>
-                <label class="form-label" for="form3Example4">Senha</label>
+                
 
               </div>
               </div>
+              <br>
               <!-- Submit button -->
               <div class="d-grid gap-4 col-6 mx-auto">
               <button class="btn btn-primary" type="submit" data-confirmProf>Cadastrar <i class="fa fa-user-plus" aria-hidden="true"></i></button>

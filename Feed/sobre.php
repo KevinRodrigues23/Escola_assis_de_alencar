@@ -34,14 +34,14 @@ session_start();
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <header>
-        <nav class="navbar navbar-expand-lg bg-info">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-info">    
+        <div class="container-fluid">
               <a class="navbar-brand" href="#">ESCOLA ASSIS DE ALENCAR</a>
-           <div>
-             
-              <a class="navbar-brand" href="Feed/sobre.html">Sobre</a>
+            <div>
+              <a class="navbar-brand" href="../index.php">Home</a>
+              <a class="navbar-brand" href="sobre.php">Sobre</a>
               <a class="navbar-brand" href="#">Fale Conosco</a>
-              <a class="navbar-brand" href="#">Unidades</a>
+              <a class="navbar-brand" href="../unidades.php">Unidades</a>
              
             </div>
 

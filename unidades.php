@@ -22,8 +22,10 @@ session_start();
         <nav class="navbar navbar-expand-lg bg-info">
             <div class="container-fluid">
                 <a class="btn-back" href="index.php"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
-              <a class="navbar-brand" href="#">ESCOLA ASSIS DE ALENCAR</a>
-           <div>
+              <div class="escolaassis">
+                <a class="navbar-brand" href="#">ESCOLA ASSIS DE ALENCAR</a>
+</div>
+                <div>
               <a class="navbar-brand" href="Feed/sobre.php">Sobre</a>
               <a class="navbar-brand" href="#">Fale Conosco</a>
               <a class="navbar-brand" href="#">Unidades</a>
@@ -157,3 +159,10 @@ include('assets/footer.php');
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<!-- CSS -->
+<style>
+.escolaassis{
+    padding-right:28%;
+}
+</style>
